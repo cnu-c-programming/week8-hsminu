@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(int argc, char *argv[]){
-    int n = sizeof(argv) / sizeof(argv[0]);
+    int n = argc;
 
     for(int i=1; i<n; i++) {
         for(int j=0; j<i; j++) {

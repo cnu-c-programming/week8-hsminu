@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main() {
-    char *names[] = {"apple", "mango", "banana", "cat", "anaconda"};
+    char *names[] = {"apple", "mango", "ant", "banana", "cat", "anaconda"};
     int n = sizeof(names) / sizeof(names[0]);
 
     for(int i=1; i<n; i++) {
